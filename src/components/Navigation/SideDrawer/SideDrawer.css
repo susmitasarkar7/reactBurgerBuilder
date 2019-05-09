@@ -24,6 +24,7 @@
 
 .Close {
     transform: translateX(-100%);
+    display: none;
 }
 
 .Logo {
