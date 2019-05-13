@@ -19,11 +19,12 @@ class OrderSummery extends Component {
             });
         return (
             <Auxi>
-                <h3>Your Order</h3>
+                 <h3>Your Order</h3>
                 <p>A delicious burger with the following ingredients:</p>
                 <ul>
                     {ingredientSummery}
                 </ul>
+                <p><strong>Total Price: {this.props.price.toFixed( 2 )}</strong></p>
                 <p>Continue to Checkout?</p>
                 <Button btnType="Danger" clicked={this.props.purchaseCancelled}>CANCEL</Button>
                 <Button btnType="Success" clicked={this.props.purchaseContinued}>CONTINUE</Button>

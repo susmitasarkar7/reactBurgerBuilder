@@ -50,6 +50,7 @@
     "react-app-polyfill": "^1.0.0",
     "react-dev-utils": "^9.0.0",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
@@ -66,7 +67,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "eject": "react-scripts eject",
-    "start-prod": "cross-env NODE_ENV=production && forever server.js" 
+    "start-prod": "cross-env NODE_ENV=production && forever server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
